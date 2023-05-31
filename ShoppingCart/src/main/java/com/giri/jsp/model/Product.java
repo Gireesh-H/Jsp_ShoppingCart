@@ -13,7 +13,6 @@ public class Product {
 
 	
 	public Product(int id, String name, String category, Double price, String image) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.category = category;

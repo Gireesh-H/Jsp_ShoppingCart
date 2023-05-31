@@ -8,14 +8,12 @@ import com.giri.jsp.model.Product;
 
 public class ProductDao {
 	private Connection con;
-
 	private String query;
     private PreparedStatement pst;
     private ResultSet rs;
     
 
 	public ProductDao(Connection con) {
-		super();
 		this.con = con;
 	}
 	
